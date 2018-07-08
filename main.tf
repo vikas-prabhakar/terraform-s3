@@ -12,7 +12,7 @@ resource "aws_s3_bucket" "s3_bucket" {
     }
 
   lifecycle {
-      prevent_destroy = false
+      prevent_destroy = true
     }
 
 
