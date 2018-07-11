@@ -16,6 +16,6 @@ variable "bucket_name" {
 }
 
 variable "bucket_acl" {
-  description = "name of techteam for billing"
+  description = " The canned ACL to apply. Defaults to "private"."
   default = "private"
 }
